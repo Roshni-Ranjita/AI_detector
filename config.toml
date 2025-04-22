@@ -1,3 +1,7 @@
 [theme]
 base = "light"
-textColor = "black"  # White text
+primaryColor = "#ffffff"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f0f0"
+textColor = "#000000"
+font = "sans serif"
