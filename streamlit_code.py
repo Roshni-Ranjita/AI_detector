@@ -15,15 +15,17 @@ import joblib
 import pickle
 
 #set theme
-theme = st.sidebar.radio("Select Theme", ["Light", "Dark"], horizontal=True)
-light_theme = """
+#theme = st.sidebar.radio("Select Theme", ["Light", "Dark"], horizontal=True)
+#light_theme = 
+"""
     <style>
         body { background-color: white; color: black; }
         .stApp { background-color: white; }
         .stSidebar { background-color: #f0f2f6 !important; } 
     </style>
 """
-dark_theme = """
+#dark_theme = 
+"""
     <style>
         body { background-color: black; color: #E0E0E0; }  
         .stApp { background-color: black; }
@@ -44,10 +46,10 @@ dark_theme = """
         }
     </style>
 """
-if theme == "Dark":
+'''if theme == "Dark":
     st.markdown(dark_theme, unsafe_allow_html=True)
 else:
-    st.markdown(light_theme, unsafe_allow_html=True)
+    st.markdown(light_theme, unsafe_allow_html=True)'''
 
 
 #add navigation sidebar
